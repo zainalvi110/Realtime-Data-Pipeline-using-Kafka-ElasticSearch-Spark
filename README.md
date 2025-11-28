@@ -7,7 +7,7 @@ The system ingests data from the Yelp Open Dataset (Kaggle), processes it throug
 
 ## Architecture
 
-![Architecture Diagram](./architecture.png)
+![Architecture Diagram](./image.png)
 
 ---
 
@@ -84,5 +84,17 @@ Provides dashboards and insights using Elasticsearch indices.
 
 ---
 
-## Recommended Repository Structure
+
+---
+
+## Running the Pipeline (High-Level)
+
+1. Start Kafka, Zookeeper, Schema Registry, and Kafka Connect  
+2. Run the Kafka Producer to publish raw dataset  
+3. Start the Spark Streaming job  
+4. Configure MongoDB Atlas and connectors  
+5. Start the sink connector for Elasticsearch  
+6. Open Kibana and visualize indexed data  
+
+
 
