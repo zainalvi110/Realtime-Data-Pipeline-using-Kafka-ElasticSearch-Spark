@@ -1,4 +1,5 @@
-# Real-Time Data Pipeline (Kafka, Spark, MongoDB, Elasticsearch, Kibana)
+# Real-Time Data Pipeline (Kafka, Spark, MongoDB, Elasticsearch, Kibana)          
+
 
 A real-time data engineering pipeline built using Apache Kafka, Spark Structured Streaming, MongoDB Atlas, Elasticsearch, and Kibana.  
 The system ingests data from the Yelp Open Dataset (Kaggle), processes it through Kafka and Spark, stores enriched data in MongoDB, and indexes it into Elasticsearch for visualization in Kibana.
@@ -10,7 +11,7 @@ The system ingests data from the Yelp Open Dataset (Kaggle), processes it throug
 ![Architecture Diagram](./image.png)
 
 ---
-
+### Those API-KEYS are useless now 😁
 ## Pipeline Overview
 
 The pipeline processes Yelp dataset records through multiple stages:
